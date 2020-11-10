@@ -6,3 +6,4 @@
 
 第三步：docker run -d -p 9000:9000 --restart=always  -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data -v /public:/public --name prtainer portainer/portainer
 
+第四步：设置账号密码，继续，选择首项local,继续，完成
